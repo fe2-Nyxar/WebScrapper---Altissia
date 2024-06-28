@@ -11,7 +11,6 @@ import { pageLogic } from "./Methods/PageLogic.mjs";
 
 config();
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-openai.chat.completions;
 const username = process.env.usrname;
 const password = process.env.pass;
 
